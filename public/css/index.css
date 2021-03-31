@@ -776,13 +776,17 @@ canvas{
    width: 90vw;
    height: 80vh;
    margin: 0 auto;
+   display: flex;
    
 }
 
 .content_formation > div{
     width: 50vw;
-    height: 80vh;
     
+}
+
+.imageFormation{
+    height: 80vw;
 }
 
 .text_bas{
@@ -790,6 +794,7 @@ canvas{
     flex-direction: column;
     justify-content: flex-end;
     text-align: left;
+    height: 70vh;
 }
 
 .content_formation img{
@@ -828,12 +833,12 @@ margin-top: 10px;
     width: 90vw;
    height: 70vh;
    margin: 0 auto;
+   display: flex;
    
 }
 
 .content_interview > div{
     width: 50vw;
-    height: 70vh;
     
 }
 
@@ -911,4 +916,292 @@ video{
 
 .content_formation img{
     position:  static;
+}
+
+.icon_nav i{
+ display: none;
+}
+
+.contenu> div:nth-child(3), .contenu> div:nth-child(6){
+    margin-top: 80px;
+}
+
+.contenu> div:nth-child(9) > div:nth-child(1){
+    margin-top: 80px;
+}
+
+.tailleEquipemennt{
+    height: 240vh;
+}
+
+.containerFormation{
+    background-color: #EAEAEA;
+    width: 100vw;   
+}
+
+.containerFormation h2{
+    font-size: 100px;
+    margin-top: 40px;
+    color: #D0D0D0;
+}
+
+.containerFormation p{
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.bottom_marge{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    
+    header{
+        flex-direction: column;
+        height: 450px;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+    li{
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .icon_nav{
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .icon_rex{
+        width: 20vw;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .shrink{
+        height: 140px;
+    }
+
+    .icon_rex i{
+        margin-left: 0;
+    }
+
+    .icon_nav i{
+        display: block;
+    }
+
+    .container .presentation{
+        height: auto;
+        top: 70%;
+        width: auto;
+    }
+
+    .colum p {
+        font-size: 4vw;
+        margin: 0;
+  }
+
+  .colum{
+      width: auto;
+  }
+
+  .article{
+      display:block;
+  }
+
+  .article .first, .article .second{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .actu > div{
+      width: auto;
+  }
+
+  .actu{
+     height: auto;
+  }
+
+  h3{
+    font-size: 3vw;
+  }
+
+  .first > div{
+      margin-left: 0;
+  }
+
+  .article .first{
+      align-items: center;
+  }
+
+  .equipe{
+      display: block;
+  }
+
+  .second > div{
+    margin-bottom: 30px;
+  }
+
+  .equipe > div{
+      width: auto;
+      height: 40vh;
+  }
+
+  .container{
+    background-position:center;
+  }
+
+  .equipePhoto{
+    background-position:center;
+  
+
+}
+
+.text_gallery {
+    top: 86%;
+    left: 3%;
+    font-size: 4vw;
+    }
+
+.com > div {
+    display: block;
+}
+
+.com div div {
+    text-align: center;
+}
+
+.com h2{
+    margin-top: 30px;
+}
+
+/*caserne*/
+
+.ddd h2{
+    font-size: 8vw;
+}
+
+.ddd p{
+    font-size: 4vw;
+    margin-top: 40px;
+}
+
+.contenu{
+    margin-top: 0;
+}
+
+.photo > div > div{
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenu> div:nth-child(3), .contenu> div:nth-child(6){
+    margin-top: 10px;
+}
+
+.tailleEquipemennt{
+    height: 130vh;
+}
+
+.carre_blanc h2 {
+    margin-left: 20px;
+}
+
+.title h2{
+    margin-top: 30px;
+}
+
+
+    ul li:nth-child(7){
+        display: none;
+    }
+
+    ul li:nth-child(2){
+        display: none;
+    }
+
+/*Formation*/
+
+
+.containerFormation h2{
+    font-size: 8vw;
+}
+
+.containerFormation p{
+    font-size: 4vw;
+    margin-top: 10px;
+}
+
+.content_formation{
+    display: block;
+    height: auto;
+    margin-top: 40px;
+}
+
+.content_formation{
+    display: block;
+    height: auto;
+}
+
+.content_interview{
+    display: block;
+    height: auto;
+    margin-top: 40px;
+}
+
+.text_bas > div{
+    width: auto;
+    padding-left: 10px;
+}
+
+.content_formation > div {
+    width: auto;
+}
+
+.imageFormation{
+    height: 40vh;
+}
+
+.descriptif p{
+    margin-top: 30px;
+}
+
+.content_interview > div{
+    width: auto;
+}
+
+.content_interview .text_bas{
+    height: 20vh;
+    margin-top: 30px;
+}
+
+.content_interview h3, .content_formation h3{
+    font-size: 4vw;
+}
+
+.text_fin h3{
+    font-size: 4.5vw;
+}
+
+.content_formationModif h3 {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.content_formation img {
+    width: 90vw;
+}
+
 }
